@@ -10,7 +10,7 @@ int dtb(int m){
         i++;
     }
 	int k;
-	
+	printf("Binary representation:");
     for(k=i-1;k>=0;k--){
         printf("%d",binarynum[k]);
     }
